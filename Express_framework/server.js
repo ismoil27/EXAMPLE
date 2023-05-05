@@ -11,9 +11,9 @@ app.use(express.json());
 // 3: Views
 app.set("views", "views");
 app.set("view engine", "ejs");
+// BSSR -Backend server side rendering
 
 // 4: Routes
-
 app.get("/hello", function (req, res) {
   res.end("<h1> Hello world!</h1>");
 });
